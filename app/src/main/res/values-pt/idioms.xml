@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uma vez que a Caixa de Diálogo com Lista de Múltipla Escolha (CadastroCliente) recebe um arquivo XML das Resources,
+este arquivo foi criado. As informações aqui contidas devem ser as mesmas que estão na tabela de Idiomas no banco de dados.
+ Idiomas retirados da Google Play Ajuda. -->
+<resources>
+    <string-array
+        name="string_array_idioms">
+        <item>Afrikaans</item> <!-- 1 -->
+        <item>Alemão</item> <!-- 2 -->
+        <item>Amárico</item> <!-- 3 -->
+        <item>Búlgaro</item> <!-- 4 -->
+        <item>Catalão</item> <!-- 5 -->
+        <item>Checo</item> <!-- 6 -->
+        <item>Chinês</item> <!-- 7 -->
+        <item>Coreano</item> <!-- 8 -->
+        <item>Croata</item> <!-- 9 -->
+        <item>Dinamarquês</item> <!-- 10 -->
+        <item>Eslovaco</item> <!-- 11 -->
+        <item>Esloveno</item> <!-- 12 -->
+        <item>Espanhol</item> <!-- 13 -->
+        <item>Estônio</item> <!-- 14 -->
+        <item>Filipino</item> <!-- 15 -->
+        <item>Finlandês</item> <!-- 16 -->
+        <item>Francês</item> <!-- 17 -->
+        <item>Grego</item> <!-- 18 -->
+        <item>Hindi</item> <!-- 19 -->
+        <item>Holandês</item> <!-- 20 -->
+        <item>Húngaro</item> <!-- 21 -->
+        <item>Indonésio</item> <!-- 22 -->
+        <item>Inglês</item> <!-- 23 -->
+        <item>Italiano</item> <!-- 24 -->
+        <item>Japonês</item> <!-- 25 -->
+        <item>Letão</item> <!-- 26 -->
+        <item>Lituano</item> <!-- 27 -->
+        <item>Malaio</item> <!-- 28 -->
+        <item>Norueguês</item> <!-- 29 -->
+        <item>Polaco</item> <!-- 30 -->
+        <item>Português</item> <!-- 31 -->
+        <item>Romeno</item> <!-- 32 -->
+        <item>Russo</item> <!-- 33 -->
+        <item>Sérvio</item> <!-- 34 -->
+        <item>Suaíli</item> <!-- 35 -->
+        <item>Sueco</item> <!-- 36 -->
+        <item>Tailandês</item> <!-- 37 -->
+        <item>Turco</item> <!-- 38 -->
+        <item>Ucraniano</item> <!-- 39 -->
+        <item>Zulu</item> <!-- 40 -->
+    </string-array>
+</resources>

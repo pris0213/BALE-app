@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/tipopergunta_layout">
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        CircleProgressView:cpv_value="0"
+        CircleProgressView:cpv_maxValue="100"
+        CircleProgressView:cpv_barColor="@color/colorPrimaryDark"
+        CircleProgressView:cpv_rimColor="@color/colorPrimary"
+        CircleProgressView:cpv_textColor="@color/colorPrimaryDark"
+        CircleProgressView:cpv_unitColor="@color/colorPrimaryDark"
+        CircleProgressView:cpv_spinColor="@color/colorPrimary"
+        CircleProgressView:cpv_barWidth="7dp"
+        CircleProgressView:cpv_rimWidth="7dp"
+        CircleProgressView:cpv_contourSize="0dp"
+        CircleProgressView:cpv_autoTextSize="true"
+        CircleProgressView:cpv_seekMode="false"
+        CircleProgressView:cpv_unit="%"
+        CircleProgressView:cpv_unitPosition="right_top"
+        CircleProgressView:cpv_unitScale="1"
+        CircleProgressView:cpv_textScale="1"
+        CircleProgressView:cpv_showUnit="true"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tipo_avaliacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:paddingTop="16dp"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_toRightOf="@+id/circleView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

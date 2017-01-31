@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Levando em consideração que a Caixa de Diálogo com Lista de Múltipla Escolha (CadastroCliente) recebe um arquivo XML das Resources,
+este arquivo foi criado. As informações aqui contidas devem ser as mesmas que estão na tabela de Idiomas no banco de dados.
+ Idiomas retirados da Google Play Ajuda. -->
+<resources>
+    <string-array
+        name="string_array_idioms">
+        <item>Afrikaans</item> <!-- 1 -->
+        <item>Amharic</item> <!-- 2 -->
+        <item>Bulgarian</item> <!-- 3 -->
+        <item>Catalan</item> <!-- 4 -->
+        <item>Chinese</item> <!-- 5 -->
+        <item>Croatian</item> <!-- 6 -->
+        <item>Czec</item> <!-- 7 -->
+        <item>Danish</item> <!-- 8 -->
+        <item>Dutch</item> <!-- 9 -->
+        <item>English</item> <!-- 10 -->
+        <item>Estonian</item> <!-- 11 -->
+        <item>Filipino</item> <!-- 12 -->
+        <item>Finnish</item> <!-- 13 -->
+        <item>French</item> <!-- 14 -->
+        <item>German</item> <!-- 15 -->
+        <item>Greek</item> <!-- 16 -->
+        <item>Hindi</item> <!-- 17 -->
+        <item>Hungarian</item> <!-- 18 -->
+        <item>Indonesian</item> <!-- 19 -->
+        <item>Italian</item> <!-- 20 -->
+        <item>Japanese</item> <!-- 21 -->
+        <item>Korean</item> <!-- 22 -->
+        <item>Latvian</item> <!-- 23 -->
+        <item>Lithuanian</item> <!-- 24 -->
+        <item>Malay</item> <!-- 25 -->
+        <item>Norwegian</item> <!-- 26 -->
+        <item>Polish</item> <!-- 27 -->
+        <item>Portuguese</item> <!-- 28 -->
+        <item>Romanian</item> <!-- 29 -->
+        <item>Russian</item> <!-- 30 -->
+        <item>Serbian</item> <!-- 31 -->
+        <item>Slovak</item> <!-- 32 -->
+        <item>Slovenian</item> <!-- 33 -->
+        <item>Spanish</item> <!-- 34 -->
+        <item>Swahili</item> <!-- 35 -->
+        <item>Swedish</item> <!-- 36 -->
+        <item>Thai</item> <!-- 37 -->
+        <item>Turkish</item> <!-- 38 -->
+        <item> Ukrainian</item> <!-- 39 -->
+        <item>Zulu</item> <!-- 40 -->
+    </string-array>
+</resources>

@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">BALE</string>
+    <string name="extra_pk_usuario">com.example.app.bale.PK_USUARIO</string>
+
+    <!-- Strings related to "Login" -->
+    <string name="welcome">Welcome!</string>
+    <string name="bale_explanation">This is the Bateria de Avaliação da Linguagem no Envelhecimento app</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="forgotten_password">Forgotten your password?</string>
+    <string name="register">Register</string>
+
+    <!-- Strings related to "Sign Up"/"Registration" -->
+    <string name="regs_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="action_sign_up">Register</string>
+    <string name="already_member">Already a member? Login</string>
+    <string name="error_register_failed">Sign Up Failed</string>
+    <string name="error_name_too_short">This name is too short</string>
+    <string name="error_confirm_password">The password doesn\'t match</string>
+    <string name="progress_message">Creating Account</string>
+    <string name="registration_explanation">In case you\'re either an examiner or an administrator,
+        fill the registration form in order to create an account</string>
+    <string name="account_created_message">Account created</string>
+
+    <!-- Strings related to "Recover Password" -->
+    <string name="recuperar_senha">Retrieve your password</string>
+    <string name="recuperar_senha_info">Enter your e-mail bellow. We\'ll send you a code
+        which you can use to retrieve your password.</string>
+    <string name="recuperar_senha_button">Send</string>
+    <string name="recuperar_senha_email_sent">A code has been sent to you. Verify your e-mail inbox and enter the code below.</string>
+    <string name="recuperar_senha_email_subject">Recover your Password - Bateria de Avaliação da Linguagem no Envelhecimento</string>
+    <string name="recuperar_senha_email_greetings">Hi,</string>
+    <string name="recuperar_senha_email_body">Here\'s the code to recover your password. Enter it in your app in order
+        to change your current password:</string>
+    <string name="recuperar_senha_email_body_after_code">Any question? Send an e-mail to: suportebale@gmail.com.</string>
+    <string name="recuperar_senha_email_closing">Best wishes,</string>
+    <string name="recuperar_senha_erro">There are no e-mail clients installed</string>
+    <string name="recuperar_senha_send_mail_error">Error white trying to send e-mail</string>
+    <string name="recuperar_senha_code">Enter your code here</string>
+    <string name="recuperar_senha_code_error">Incorrect code</string>
+    <string name="recuperar_senha_new_password_button">Change Password</string>
+    <string name="recuperar_senha_new_password_error">Error while trying to change password</string>
+    <string name="recuperar_senha_invalid_email_error">The e-mail is not registered in our systems</string>
+    <string name="recuperar_senha_progress_message">Sending e-mail</string>
+
+    <!-- Strings related to "Examiner Main Activity" -->
+    <string name="battery">"Bateria de Avaliação da Linguagem no Envelhecimento"</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_pesquisas_em_andamento">Ongoing Surveys</string>
+    <string name="tab_pesquisas_finalizadas">Finished Surveys</string>
+
+    <!-- Strings related to BALE's e-mail account -->
+    <string name="bale_email">suportebale@gmail.com</string>
+    <string name="bale_password">falein65</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Strings related to "Participant Register Activity" -->
+    <string name="participante_explanation">Fill the form bellow in order to register a new participant. All fields are required.</string>
+    <string name="participante_full_name">Full Name</string>
+    <string name="participante_dob">Date of Birth</string>
+    <string name="participante_gender">Gender</string>
+    <string name="participante_female">Female</string>
+    <string name="participante_male">Male</string>
+    <string name="participante_nonbinary">Non-binary</string>
+    <string name="participante_phone">Phone Number</string>
+    <string name="participante_schooling">Schooling</string>
+    <string name="participante_handedness">Handedness</string>
+    <string name="participante_lefthanded">Left</string>
+    <string name="participante_righthanded">Right</string>
+    <string name="participante_ambidextrous">Both</string>
+    <string name="participante_retired">Check this box if the participant is retired</string>
+    <string name="participante_profession">Profession</string>
+    <string name="participante_mother_tongue">Mother Tongue</string>
+    <string name="participante_mother_tongue_selection">Select a language...</string>
+    <string name="participante_idioms">Other Idioms</string>
+    <string name="participante_idioms_selection">Select the idioms...</string>
+    <string name="participante_obs">Observation</string>
+    <string name="participante_register">Register Participant</string>
+    <string name="participante_toast_register">Register failed</string>
+    <string name="participante_progress_message">Registering participant</string>
+    <!-- Reference à caixa de diálogo -->
+    <string name="dialog_choose">Choose</string>
+
+    <string name="participante_label">Participant Register</string>
+
+
+    <!-- Strings related to Pesquisas -->
+    <string name="at">At</string>
+
+    <!-- Strings related to BateriaActivity -> TipoPerguntaFragment -> Titles of each part of the battery -->
+    <string name="bateria_tipopergunta_label">Types of Questions</string>
+    <!-- TODO: Alterar para os idiomas certinhos -->
+    <string name="bateria_tipopergunta_habitos">Hábitos de Leitura e Escrita</string>
+    <string name="bateria_habitos_leitura">Hábitos de Leitura</string>
+    <string name="bateria_habitos_escrita">Hábitos de Escrita</string>
+    <string name="bateria_tipopergunta_compfrases">Compreensão de Frases</string>
+    <string name="bateria_tipopergunta_memoria">Memória Episódica</string>
+    <string name="bateria_tipopergunta_compverbal">Compreensão Verbal</string>
+    <string name="bateria_tipopergunta_disclivre">Discurso Livre</string>
+
+    <!-- Meses em Inglês -->
+    <string name="mes_janeiro">January</string>
+    <string name="mes_fevereiro">February</string>
+    <string name="mes_marco">March</string>
+    <string name="mes_abril">April</string>
+    <string name="mes_maio">May</string>
+    <string name="mes_junho">June</string>
+    <string name="mes_julho">July</string>
+    <string name="mes_agosto">August</string>
+    <string name="mes_setembro">September</string>
+    <string name="mes_outubro">October</string>
+    <string name="mes_novembro">November</string>
+    <string name="mes_dezembro">Dezember</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Authentication Strings -->
+    <string name="sync_account_type">bale.example.com</string>
+    <string name="content_authority">com.example.app.bale</string>
+
+    <!-- Strings related to AdministradorMain -->
+    <string name="admin_label">Administrator\'s Home Page</string>
+    <string name="tab_examinadores">Examiners</string>
+
+    <!-- Strings related to CadastroExaminatorActivity -->
+    <string name="examinador_explanation">Fill the form bellow in order to register a new examiner. All fields are required.</string>
+    <string name="examinador_adm">Administrator</string>
+    <!-- Strings related to CadastroExaminadorActivity - Email Sent to the New Examiner -->
+    <string name="cadastro_examinador_email_subject">Welcome to BALE - Bateria de Avaliação da Linguagem no Envelhecimento</string>
+    <string name="cadastro_examinador_email_greetings">Hi,</string>
+    <string name="cadastro_examinador_email_body">Your e-mail has just been register into our systems.
+        A random password has been addressed to your account.</string>
+    <string name="cadastro_examinador_email_body_password">Your password:</string>
+    <string name="cadastro_examinador_email_body_code">In order to change your password, click on the option named \"Forgot your password?\".</string>
+    <string name="cadastro_examinador_email_body_after_code">Any question? Send an e-mail to: suportebale@gmail.com.</string>
+    <string name="cadastro_examinador_email_closing">Best wishes,</string>
+    <string name="examinador_register">Register Examiner</string>
+    <string name="examinador_progress_message">Registering examiner</string>
+    <string name="examinador_email_cadastrado">This e-mail address is already registered in our systems</string>
+
+    <!-- TODO: Mudar certinho pra Inglês/Português. O aplicativo não precisa ter versão em inglês, mas pelo menos deixe-o organizado... -->
+    <!-- Strings related to HabitosLeituraEscritaActivity. Portuguese only: -->
+    <string name="habitos_freq_4">Todos os dias</string>
+    <string name="habitos_freq_3">Alguns dias por semana</string>
+    <string name="habitos_freq_2">Uma vez por semana</string>
+    <string name="habitos_freq_1">Raramente</string>
+    <string name="habitos_freq_0">Nunca</string>
+    <string name="habitos_atual">Atual</string>
+    <string name="habitos_passado">Passado</string>
+    <string name="habitos_digital">Digital</string>
+    <string name="habitos_impresso">Impresso</string>
+    <string name="habitos_leit_revista">Revistas</string>
+    <string name="habitos_leit_jornal">Jornais</string>
+    <string name="habitos_leit_livro">Livros</string>
+    <string name="habitos_leit_rede">Redes Sociais</string>
+    <string name="habitos_escr_mensagem">Textos/Mensagens</string>
+    <string name="habitos_escr_literario">Textos Literários</string>
+    <string name="habitos_escr_naoliterario">Textos Não Literários</string>
+    <string name="habitos_escr_outro">Outros</string>
+    <string name="habitos_frequencia">Frequência</string>
+    <string name="habitos_leitura">Leitura</string>
+    <string name="habitos_escrita">Escrita</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="valor_0">0</string>
+    <string name="valor_1">1</string>
+    <string name="valor_2">2</string>
+    <string name="valor_3">3</string>
+    <string name="valor_4">4</string>
+    <string name="valor_total_20">20</string>
+    <string name="valor_total_40">40</string>
+    <string name="valor_digital">D</string>
+    <string name="valor_impresso">I</string>
+    <string name="habitos_leitura_atual_total">Hábitos de Leitura Atuais:</string>
+    <string name="habitos_leitura_passado_total">Hábitos de Leitura no Passado:</string>
+    <string name="habitos_escrita_atual_total">Hábitos de Escrita Atuais:</string>
+    <string name="habitos_escrita_passado_total">Hábitos de Escrita no Passado:</string>
+    <string name="total">Total:</string>
+    <string name="toast_radiobutton">Ops. Aparentemente alguma seção ficou em branco.</string>
+    <string name="toast_registrar">Não foi possível registrar os dados.</string>
+
+    <!-- Strings related to CompreensaoFrasesActivity -->
+</resources>

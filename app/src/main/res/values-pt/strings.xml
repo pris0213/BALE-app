@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BALE</string>
+
+    <!-- Strings relacionadas ao sistema de entrada -->
+    <string name="welcome">Boas-vindas!</string>
+    <string name="bale_explanation">Este é o aplicativo da Bateria de Avaliação da Linguagem no Envelhecimento</string>
+    <string name="prompt_email">Insira seu e-mail</string>
+    <string name="prompt_password">Insira sua senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este endereço de e-mail é inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">É necessária a permissão de "Contatos" para completar o e-mail</string>
+    <string name="forgotten_password">Esqueceu a senha?</string>
+    <string name="register">Registre-se</string>
+
+    <!-- Strings relacionadas ao sistema de registro -->
+    <string name="regs_name">Nome Completo</string>
+    <string name="confirm_password">Confirmar Senha</string>
+    <string name="action_sign_up">Registrar-se</string>
+    <string name="already_member">Já possui uma conta? Entrar</string>
+    <string name="error_register_failed">O registro falhou</string>
+    <string name="error_name_too_short">Nome muito curto</string>
+    <string name="error_confirm_password">As senhas são diferentes</string>
+    <string name="progress_message">Criando conta</string>
+    <string name="registration_explanation">Caso você seja examinador ou administrador da bateria,
+        preencha o formulário abaixo para criar uma conta</string>
+    <string name="account_created_message">Conta criada com sucesso</string>
+
+    <!-- Strings relacionadas a "Recuperar Senha" -->
+    <string name="recuperar_senha">Recuperar Senha</string>
+    <string name="recuperar_senha_info">Digite seu e-mail abaixo. Enviaremos um código com o qual você poderá
+        recuperar sua senha.</string>
+    <string name="recuperar_senha_button">Enviar</string>
+    <string name="recuperar_senha_email_sent">O código foi enviado. Verifique sua caixa de entrada e insira o código abaixo,</string>
+    <string name="recuperar_senha_email_subject">Recuperar Senha - Bateria de Avaliação da Linguagem no Envelhecimento</string>
+    <string name="recuperar_senha_email_greetings">Olá,</string>
+    <string name="recuperar_senha_email_body">Aqui está o código para recuperar sua senha. Insira-o no aplicativo para
+        poder mudar sua senha atual:</string>
+    <string name="recuperar_senha_email_body_after_code">Qualquer dúvida, envie um e-mail para: suportebale@gmail.com.</string>
+    <string name="recuperar_senha_email_closing">Abraço!</string>
+    <string name="recuperar_senha_erro">Não há clientes de e-mail instalados</string>
+    <string name="recuperar_senha_send_mail_error">Erro ao tentar enviar e-mail</string>
+    <string name="recuperar_senha_code">Insira seu código</string>
+    <string name="recuperar_senha_code_error">Código incorreto</string>
+    <string name="recuperar_senha_new_password_button">Alterar Senha</string>
+    <string name="recuperar_senha_new_password_error">Erro ao tentar alterar a senha</string>
+    <string name="recuperar_senha_invalid_email_error">Este e-mail não está cadastrado em nossos sistemas</string>
+    <string name="recuperar_senha_progress_message">Enviando e-mail</string>
+
+    <!-- Strings relacionadas a "Examinador Main Activity" -->
+    <string name="battery">"Bateria de Avaliação da Linguagem no Envelhecimento"</string>
+    <string name="tab_pesquisas_em_andamento">Pesquisas em Andamento</string>
+    <string name="tab_pesquisas_finalizadas">Pesquisas Finalizadas</string>
+
+    <!-- Strings relacionadas a "Cadastro Participante Activity" -->
+    <string name="participante_explanation">Preencha o formulário abaixo para cadastrar uma nova pessoa que participará da pesquisa. Todos os campos são obrigatórios.</string>
+    <string name="participante_full_name">Nome Completo</string>
+    <string name="participante_dob">Data de Nascimento</string>
+    <string name="participante_gender">Gênero</string>
+    <string name="participante_female">Feminino</string>
+    <string name="participante_male">Masculino</string>
+    <string name="participante_nonbinary">Outro</string>
+    <string name="participante_phone">Telefone</string>
+    <string name="participante_schooling">Escolaridade</string>
+    <string name="participante_handedness">Dominância Manual</string>
+    <string name="participante_lefthanded">Esquerda</string>
+    <string name="participante_righthanded">Direita</string>
+    <string name="participante_ambidextrous">Ambas</string>
+    <string name="participante_retired">Marque esse campo caso a pessoa seja aposentada</string>
+    <string name="participante_profession">Profissão</string>
+    <string name="participante_mother_tongue">Língua Materna</string>
+    <string name="participante_mother_tongue_selection">Selecione a língua materna...</string>
+    <string name="participante_idioms">Outros Idiomas</string>
+    <string name="participante_idioms_selection">Selecione o(s) idioma(s)...</string>
+    <string name="participante_obs">Observação</string>
+    <string name="participante_register">Cadastrar Participante</string>
+    <string name="participante_toast_register">Não foi possível realizar o cadastro</string>
+    <string name="participante_progress_message">Cadastrando participante</string>
+
+    <string name="participante_label">Cadastro de Participantes</string>
+    
+    <!-- Strings related to Pesquisas -->
+    <string name="at">Às</string>
+
+    <!-- Strings related to BateriaActivity -> TipoPerguntaFragment -->
+    <string name="bateria_tipopergunta_label">Tipos de Pergunta</string>
+
+    <!-- Meses em Português!!! -->
+    <string name="mes_janeiro">Janeiro</string>
+    <string name="mes_fevereiro">Fevereiro</string>
+    <string name="mes_marco">Março</string>
+    <string name="mes_abril">Abril</string>
+    <string name="mes_maio">Maio</string>
+    <string name="mes_junho">Junho</string>
+    <string name="mes_julho">Julho</string>
+    <string name="mes_agosto">Agosto</string>
+    <string name="mes_setembro">Setembro</string>
+    <string name="mes_outubro">Outubro</string>
+    <string name="mes_novembro">Novembro</string>
+    <string name="mes_dezembro">Dezembro</string>
+
+
+    <!-- Strings related to AdministradorMain -->
+    <string name="admin_label">Página Inicial de Administrador</string>
+    <string name="tab_examinadores">Examinadores</string>
+
+    <!-- Strings related to CadastroExaminatorActivity -->
+    <string name="examinador_explanation">Preencha o formulário abaixo para cadastrar uma nova pessoa que participará da pesquisa. Todos os campos são obrigatórios.</string>
+    <string name="examinador_adm">Usuário administrador</string>
+    <!-- Strings related to CadastroExaminadorActivity - Email Sent to the New Examiner -->
+    <string name="cadastro_examinador_email_subject">Boas-vindas - Bateria de Avaliação da Linguagem no Envelhecimento</string>
+    <string name="cadastro_examinador_email_greetings">Olá,</string>
+    <string name="cadastro_examinador_email_body">Seu e-mail acaba de ser registrado em nosso sistema.
+        Uma senha aleatória foi destinada a sua conta.</string>
+    <string name="cadastro_examinador_email_body_password">Sua senha:</string>
+    <string name="cadastro_examinador_email_body_code">Caso deseja alterar sua senha,
+        clique na opção \"Esqueceu a senha?\" no aplicativo da BALE.</string>
+    <string name="cadastro_examinador_email_body_after_code">Qualquer dúvida, envie um e-mail para: suportebale@gmail.com.</string>
+    <string name="cadastro_examinador_email_closing">Abraço!</string>
+    <string name="examinador_register">Registrar Examinador</string>
+    <string name="examinador_progress_message">Registrando examinador</string>
+    <string name="examinador_email_cadastrado">Este e-mail já está cadastrado no sistema</string>
+
+
+</resources>
